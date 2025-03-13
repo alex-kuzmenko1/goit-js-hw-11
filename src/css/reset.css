@@ -1,3 +1,11 @@
+body{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+
+
 h1,
 h2,
 h3,
@@ -29,6 +37,21 @@ button {
 
 img {
   display: block;
-  max-width: 100%;
-  height: auto;
+  width: 360px;
+  height: 200px;
+  gap: 24px;
 }
+
+.loader {
+  display: none;
+}
+
+.loader.visible {
+  display: block;
+}
+
+
+
+
+
+

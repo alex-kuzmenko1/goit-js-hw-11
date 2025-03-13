@@ -1,7 +1,7 @@
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
-const gallery = document.querySelector(`gallery`);
+const gallery = document.querySelector(`.gallery`);
 export function renderImages(images){
     gallery.innerHTML = images
     .map(
@@ -23,3 +23,7 @@ export function renderImages(images){
   const lightbox = new SimpleLightbox('.gallery a');
   lightbox.refresh();
 }
+
+
+
+
