@@ -2,5 +2,6 @@ body{
   display: flex;
   flex-wrap: wrap;
   align-items: canter;
+  justify-content: center;
   gap: 24px;
 }
